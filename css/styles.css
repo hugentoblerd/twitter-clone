@@ -127,6 +127,9 @@ body {
 		margin-bottom: 1em;
 		box-sizing: border-box;
 	}
+	.tweet-compose-tall {
+		height: 5em;
+	}
 		#tweet-controls {
 			text-align: right;
 		}
@@ -168,6 +171,10 @@ body {
 
 	.tweet-actions {
 		text-align: right;
+		display: none;
+	}
+	.tweet:hover .tweet-actions{
+		display: block;
 	}
 		.tweet-actions ul {
 			list-style-type: none;
